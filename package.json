@@ -1,5 +1,5 @@
 {
-  "name": "mantine-admin",
+  "name": "mantine-admin-ssr",
   "version": "1.0.0",
   "author": "Joshua Lee <jotyy318@gmail.com>",
   "description": "A Modern Admin Dashboard made with Mantine/React/NextJS!",
@@ -14,7 +14,7 @@
     }
   },
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 3004",
     "start": "next start",
     "build": "next build",
     "lint": "next lint",
